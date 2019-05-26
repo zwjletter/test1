@@ -21,7 +21,6 @@ git reset --hard HEAD^
 git reset --hard 1094a
 
 git reflog
-
 ---------------------------------
 git diff HEAD -- readme.txt
 
@@ -29,8 +28,14 @@ git checkout -- file
 git reset HEAD <file>
 ---------------------------------
 git rm test.txt
+---------------------------------
+git remote add origin git@github.com:zwjletter/test1.git
+git push -u origin master
+git push origin master
 
-
+------------------------------------------------------
+git clone git@github.com:zwjletter/helloworld.git
+git clone git@github.com:zwjletter/python.git
 
 
 
